@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="5.0.0" type="plugin" group="system">
+  <name>Select2Joomla</name>
+  <version>1.0.0</version>
+  <description>Plugin to include Select2 JS and CSS in Joomla.</description>
+  <author>Salah JAAFAR</author>
+  <files>
+    <filename plugin="select2joomla">select2joomla.php</filename>
+    <filename>assets/select2.min.js</filename>
+    <filename>assets/jquery-ui.min.js</filename>
+    <filename>assets/jquery-ui.min.css</filename>
+    <filename>assets/select2.min.css</filename>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="use_cdn" type="radio" default="1" label="Use CDN for Select2" description="Choose whether to load Select2 from CDN or local files">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>
