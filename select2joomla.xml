@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="5.0.0" type="plugin" group="system">
+<extension version="5.0.0" type="plugin" group="system" client="install">
   <name>Select2Joomla</name>
   <version>1.0.0</version>
   <description>Plugin to include Select2 JS and CSS in Joomla.</description>
