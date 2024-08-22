@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="5.0.0" type="plugin" group="system" client="install">
+<extension version="5.0" type="plugin" group="system" method="upgrade">
   <name>Select2Joomla</name>
   <version>1.0.0</version>
   <description>Plugin to include Select2 JS and CSS in Joomla.</description>
   <author>Salah JAAFAR</author>
   <files>
     <filename plugin="select2joomla">select2joomla.php</filename>
+    <filename>index.html</filename>
     <filename>assets/select2.min.js</filename>
     <filename>assets/jquery-ui.min.js</filename>
     <filename>assets/jquery-ui.min.css</filename>
@@ -22,3 +23,4 @@
     </fields>
   </config>
 </extension>
+
